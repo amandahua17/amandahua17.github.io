@@ -1,4 +1,5 @@
 <?php
+	// phpinfo();
 	include("/include/include_all.php");
 
 	head("Amanda Hua");
