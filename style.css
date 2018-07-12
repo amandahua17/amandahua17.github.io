@@ -10,25 +10,49 @@
 }
 
 
-*{
+body{
 	font-family: 'Roboto Condensed', sans-serif;
-	background-color: white;
+	background-color: black;
 }
 
 a{
 	text-decoration: none;
-	margin-left: 20%;
+	margin: auto;
 }
 
 h1{
-	opacity:0.2;
+	/* opacity:0.2; */
 	padding: 40px;
-	color: black;
+	color: white;
 	text-align: center;
 }
 
 h2{
 	text-align: center;
+}
+
+.navbar{
+    text-align: justify;
+    min-width: 500px;
+	position: fixed center;
+	background-color: rgba(255,255,255,0.5);
+}
+.navbar:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
+.navbar li {
+    display: inline-block;
+}
+
+a{
+	color: white;
+}
+
+#work{
+	color: green;
+	font-family: 'Roboto Mono', monospace;
 }
 
 body,
@@ -43,22 +67,21 @@ main {
   background-repeat: no-repeat;
   background-position: center center;
 }
-.fixed-bg.bg-1 {
-  background-image: ;
+.fixed-bg.home{
+  background-image: url("pictures/math-83287-unsplash.jpg");
 }
-.fixed-bg.bg-2 {
-  background-color: white;
+.fixed-bg.work{
+  background-color: black;
 }
-.fixed-bg.bg-3 {
-  background-image:;
+.fixed-bg.education{
+  background-image: url("pictures/joanna-kosinska-129039-unsplash.jpg");
 }
-.fixed-bg.bg-4 {
-  background-image: ;
+.fixed-bg.extracurriculars{
+  background-image: url("pictures/rawpixel-603666-unsplash.jpg");
 }
-.scrolling-bg {
+.fixed-bg.music{
+  background-image: url("pictures/markus-spiske-78531-unsplash.jpg");
+}
+.scrolling-bg{
   min-height: 100%;
-}
-
-.home{
-	text-align: center;
 }
