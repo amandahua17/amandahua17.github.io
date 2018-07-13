@@ -25,7 +25,7 @@
 		echo"
 		<ul class='navbar'>
 			<li><a href='#home'>home</a></li>	<li><a href='#work'>work</a></li>	<li><a href='#education'>education</a></li>
-			<li><a href='#extracurriculars'>extracurriculars</a></li>	<li><a href='#music'>music</a></li>
+			<li><a href='#extracurriculars'>extracurriculars</a></li>	<li><a href='#contact'>contact</a></li>
 		</ul>
 		";
 	}
