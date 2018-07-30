@@ -1,0 +1,23 @@
+:root{						/*to use variables: var(--textColor)*/
+	--blue: #698ddb;		/*looks kinda facebook-blue ish*/
+	--green: #84ce56;		/*kermit green?*/
+	--red: #ef4c4c;			/*it's just red*/
+	--orange: #f49953;		/*orange...*/
+	--yellow: #f2dd54;		/*sunshine, daisies, butter-mellow, turn this stupid fat rat-*/
+	--purple: #a853f1;		/*do people say royal purple? maybe royal blue is more common*/
+	--pink: #f98eeb;		/*it's kinda muted, but I'm not really sure how you'd get a non muted pink*/
+	--grey:	#a39ba2;		/*grey ¯\_(ツ)_/¯*/
+}
+
+
+*{
+	font-family: 'Roboto Condensed', sans-serif;
+	text-align: center;
+	background-color: white;
+}
+
+h1{
+	background-color: var(--red);
+	padding: 40px;
+	color: white;
+}
