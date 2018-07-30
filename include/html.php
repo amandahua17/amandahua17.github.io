@@ -5,30 +5,29 @@
 			<html>
 				<head>
 					<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet'>
+					<link href='https://fonts.googleapis.com/css?family=Roboto+Mono' rel='stylesheet'>
 					<title>$title</title>
 					<link rel='stylesheet' href='/style.css'>
 				</head>
 				<body>
+
 		";
-		navbar();
-		echo"
-					<h1>$title</h1>
-		";
+		// navbar();
 	}
 
-	function navbar(){
+	function navbar($things){		//can only accommodate exactly 5 things besides home rn, figure out style adjustments
 		echo"
-			<div>
-
+		<ul class='navbar'>
+		<li><a href='#home'>home</a></li>";
+		foreach($things as $thing)
+			echo"
+				<li><a href='#$thing'>$thing</a></li>
+			";
+		echo"</ul>
 		";
 	}
 
 	function foot(){
-		if($_SERVER['PHP_SELF']!= '/index.php'){
-			echo"
-					<br><a class='home' href='/index.php'>Home</a>
-			";
-		}
 		echo 		"<script src='/js/jquery.js'></script>
 					<script src='/js/jsfunctions.js'></script>
 				</body>
