@@ -28,35 +28,37 @@ h1{
 p{
 	 /* margin-right: 15%; */
 	 /* clear: none; */
-	 font-size:20px;
+	 font-size:1em;
 	 /* width: 40%; */
 	 line-height: 2;
 
-	 /* text-align: center; */
+	 /*text-align: center;*/ 
 }
 
 img{
 	margin-left:15%;
 	max-width: 400px;
 	max-height:400px;
+	width: 20%;
+	height: 50%;
 }
 
 ul{
 	list-style-type: none;
 	text-align: justify;
-	font-size: 20px;
+	font-size: 1em;
 	margin: auto;
 }
 
 h2{
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.3em;
 	/* color: white; */
 }
 
 .navbar{
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 	background-color: rgba(255,255,255,0.5);
 }
 .navbar:after {
@@ -64,17 +66,21 @@ h2{
 }
 .navbar li {
     display: inline-block;
-	/* width: 18%; */
+	 width: 18%; 
 	text-align: center;
-	margin-left: 4.5%;
-	margin-right: 4.5%;
+	/* margin-left: 5.5%;
+	margin-right: 5.5%; */
 	color: black;
+}
+
+a:visited, a:link, a:hover, a:active{
+	color: inherit;
 }
 
 .homebtn{
 	position:fixed;
 	bottom:0;
-	/* color: white; */
+	color: white; 
 	mix-blend-mode: normal;
 	/* padding-top: 100%; */
 }

@@ -10,7 +10,7 @@
 			navbar(array("work", "education", "extracurriculars", "extras", "contact"));
 		echo"
 				<h2>About Me</h2>
-				<img style='float:left; clear:left;' src='pictures/Amanda_Bean Picture.jpg'>
+				<img style='float:left; clear:left;' src='pictures/AmandaBeanPicture.jpg'>
 				<p style='float:right; clear:right; text-align: left; width: 40%; margin-right:15%'>
 					Hi! My name is Amanda Hua. I'm a 19 year old computer science major and student athlete at
 					Washington University in St. Louis. Feel free to click around or scroll for more details
@@ -21,24 +21,34 @@
 			<div id='work' class='fixed-bg work'>
 				<h2>Work</h2>
 				<ul style='width: 80%;'>
-					<li>> Less Annoying CRM:</li>
+					<li>> Less Annoying CRM (Summer 2018, May-Aug)</li>
 					<li>> Coding Fellow</li>
-					<li>> &emsp; Learned PHP, CSS, HTML, Bash, JavaScript, MySQL</li>
-					<li>> &emsp; Set up Linux virtual machines using Hyper-V and virtual servers with Amazon Web Services</li>
+					<li>  &emsp; &emsp;> Languages
+					<li>  &emsp; &emsp; &emsp; &emsp;> PHP 
+					CSS 
+					HTML
+					Bash
+					AWS cli
+					JavaScript
+					MySQL</li>
+					<li>  &emsp; &emsp;> Web Development
+					<li>  &emsp; &emsp; &emsp; &emsp;> Created a basic blog with login and posting ability
+					<li>  &emsp; &emsp; &emsp; &emsp;> 
+					<li>  &emsp; &emsp;> DevOps
+					<li>  &emsp; &emsp; &emsp; &emsp;> Set up Linux virtual machines using Hyper-V</li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> Wrote a script to create backups for other coding fellows' databases</li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> Installed LAMP using command line</li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> Worked with AWS EC2 instances and S3 buckets
 				</ul>
-				<a class='homebtn' href='#home'>back to top</a>
 			</div>
 			<div id='education' class='fixed-bg education'>
 				<h2>Education</h2>
 				<div style='width: 80%;'>
 
 				</div>
-				<a class='homebtn' href='#home'>back to top</a>
 			</div>
 			<div id='extracurriculars' class='fixed-bg extracurriculars'>
 				<h2>Extracurriculars</h2>
-
-				<a class='homebtn' href='#home'>back to top</a>
 			</div>
 			<div id='extras' class='fixed-bg extras'>
 				<h2>Extras</h2>
@@ -58,7 +68,6 @@
 					This summer I've been trying to get back into reading for fun. If you're looking for recommendations, I have a couple.
 					<br><br><a href='books/main.php'>Book Recommendations</a>
 				</div>
-				<a class='homebtn' href='#home'>back to top</a>
 			</div>
 			<div id='contact' class='fixed-bg contact'>
 				<h2>Contact</h2>
@@ -67,7 +76,7 @@
 					Linkedin: <a href='https://www.linkedin.com/in/amanda-hua-1691ab168'>https://www.linkedin.com/in/amanda-hua-1691ab168</a><br>
 					Phone: (408) 891-1028<br>
 				</p>
-				<a class='homebtn' href='#home'>back to top</a>
 			</div>
+			<a class='homebtn' href='#home'>back to top</a>
 		";
 	foot();
