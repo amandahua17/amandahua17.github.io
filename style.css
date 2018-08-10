@@ -20,7 +20,8 @@ body{
 
 h1{
 	/* opacity:0.2; */
-	padding: 40px;
+	padding: 1em;
+	font-size: 2em;	
 	color: white;
 	text-align: center;
 }
@@ -28,35 +29,68 @@ h1{
 p{
 	 /* margin-right: 15%; */
 	 /* clear: none; */
-	 font-size:20px;
+	 font-size:1em;
 	 /* width: 40%; */
 	 line-height: 2;
 
-	 /* text-align: center; */
+	 /*text-align: center;*/ 
 }
 
-img{
+.imgcontainer{
 	margin-left:15%;
 	max-width: 400px;
 	max-height:400px;
+	width: 20%;
+	height: 60%;
+	float:left;
+	clear:left;
+}
+
+img{
+	display: block;
+	width: 100%;
+	height: auto;
+
+}
+
+div.foodoverlay{
+	background: rgba(255, 255, 255, 0.5);
+	width: 80%;
+	height: 95%;
+	margin: auto;
+}
+
+div.viewrepo{
+	bottom:0; 
+	text-align: right; 
+	width: 8%; 
+	margin-left: 90%; 
+	position: fixed; 
+	background: rgba(255, 255, 255, 0.5); 
+	color: black;
 }
 
 ul{
 	list-style-type: none;
 	text-align: justify;
-	font-size: 20px;
+	font-size: 1em;
 	margin: auto;
 }
 
 h2{
 	text-align: center;
-	font-size: 30px;
+	font-size: 1.5em;
 	/* color: white; */
 }
 
+h3{
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
 .navbar{
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 	background-color: rgba(255,255,255,0.5);
 }
 .navbar:after {
@@ -64,19 +98,25 @@ h2{
 }
 .navbar li {
     display: inline-block;
-	/* width: 18%; */
+	 width: 18%; 
 	text-align: center;
-	margin-left: 4.5%;
-	margin-right: 4.5%;
+	/* margin-left: 5.5%;
+	margin-right: 5.5%; */
 	color: black;
 }
 
-.homebtn{
+a:visited, a:link, a:hover, a:active{
+	color: inherit;
+}
+
+a.homebtn{
 	position:fixed;
 	bottom:0;
-	/* color: white; */
+	color: black; 
 	mix-blend-mode: normal;
 	/* padding-top: 100%; */
+	background: rgba(255, 255, 255, 0.5)
+	
 }
 
 .navbar a{
@@ -99,11 +139,19 @@ h2{
 	color: black;
 }
 
+.bookbackground{
+	background-attachment:fixed;
+	background-size: cover;
+	background-image: url('pictures/jamie-taylor-110195-unsplash.jpg');
+	color: black;
+}
+
 body,
 html,
 main {
   height: 100%;
 }
+
 .fixed-bg {
   min-height: 100%;
   background-size: cover;
@@ -112,7 +160,7 @@ main {
   background-position: center center;
 }
 .fixed-bg.home{
-  background-image: url("pictures/math-83287-unsplash.jpg");
+  background-image: url("pictures/diego-ph-222506-unsplash.jpg");
 }
 .fixed-bg.work{
   background-color: black;
@@ -135,6 +183,71 @@ main {
   background-position: bottom;
   color: var(--blue);
 }
+.fixed-bg.boba{
+	background-image: url("pictures/rosalind-chang-658852-unsplash.jpg");
+	background-position:bottom;
+	color: black;
+}
+.fixed-bg.breakfast{
+	background-image: url("pictures/ana-azevedo-514193-unsplash.jpg");
+	background-position:middle;
+	color: black;
+}
+.fixed-bg.lunch{
+	background-image: url("pictures/hermes-rivera-258743-unsplash.jpg");
+	background-position:middle;
+	color: black;
+}
+.fixed-bg.dinner{
+	background-image: url("pictures/joanna-kosinska-547318-unsplash.jpg");
+	background-position:bottom;
+	color: black;
+}
+.fixed-bg.dessert{
+	background-image: url("pictures/hisu-lee-110005-unsplash.jpg");
+	background-position:middle;
+	color: black;
+}
+.fixed-bg.stl{
+	background-image: url("pictures/brittney-butler-498222-unsplash.jpg");
+	background-position:middle;
+	color: black;
+}
+.fixed-bg.socal{
+	background-image: url("pictures/roberto-nickson-g-703034-unsplash.jpg");
+	background-position:bottom;
+	color: white;
+}
+.fixed-bg.bay{
+	background-image: url("pictures/jaredd-craig-750811-unsplash.jpg");
+	background-position:middle;
+	color: black;
+}
+.fixed-bg.book{
+	background-image: url("pictures/jamie-taylor-110195-unsplash.jpg");
+	color: black;
+}
+.fixed-bg.scifi{
+	background-image: url("pictures/jamie-taylor-110195-unsplash.jpg");
+	color: black;
+}
+.fixed-bg.horror{
+	background-image: url("pictures/jamie-taylor-110195-unsplash.jpg");
+	color: black;
+}
+.fixed-bg.fantasy{
+	background-image: url("pictures/jamie-taylor-110195-unsplash.jpg");
+	color: black;
+}
+.fixed-bg.mystery{
+	background-image: url("pictures/jamie-taylor-110195-unsplash.jpg");
+	color: black;
+}
+.fixed-bg.book{
+	background-image: url("pictures/jamie-taylor-110195-unsplash.jpg");
+	color: black;
+}
+
 .scrolling-bg{
   min-height: 100%;
 }

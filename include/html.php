@@ -17,8 +17,7 @@
 
 	function navbar($things){		//can only accommodate exactly 5 things besides home rn, figure out style adjustments
 		echo"
-		<ul class='navbar'>
-		<li><a href='#home'>home</a></li>";
+		<ul class='navbar'>";
 		foreach($things as $thing)
 			echo"
 				<li><a href='#$thing'>$thing</a></li>

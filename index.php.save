@@ -1,0 +1,88 @@
+<?php
+	// phpinfo();
+	include("include/include_all.php");
+
+	head("Amanda Hua");
+		//content
+		echo"
+			<div id='home' class='fixed-bg home'>
+			<h1>Amanda Hua</h1>";
+			navbar(array("work", "education", "extracurriculars", "extras", "contact"));
+		echo"
+				<h2>About Me</h2>
+				<div class='imgcontainer'>
+					<img style='float:left; clear:left;' src='pictures/AmandaBeanPicture.jpg'>
+				</div>
+				<p style='float:right; clear:right; text-align: left; width: 30%; margin-right:15%'>
+					Hi! My name is Amanda Hua. I'm a 19 year old computer science major and student athlete at
+					Washington University in St. Louis. Feel free to click around or scroll for more details
+					about my background.<br><br>
+					
+
+				</p>
+			</div>
+			<div id='work' class='fixed-bg work'>
+				<h2>Work</h2>
+				<ul style='width: 80%;'>
+					<li>  &emsp; &emsp;> Languages
+					<li>  &emsp; &emsp; &emsp; &emsp;> PHP</li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> CSS </li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> HTML </li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> Bash </li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> AWS cli </li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> JavaScript </li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> MySQL </li>
+					<li>  Experience </li>
+					<li>  &emsp; Less Annoying CRM: Coding Fellow (Summer 2018, May-Aug) 
+					<li>  &emsp; &emsp;> Web Development
+					<li>  &emsp; &emsp; &emsp; &emsp;> Created a basic blog with login and posting ability
+					<li>  &emsp; &emsp; &emsp; &emsp;> 
+					<li>  &emsp; &emsp;> DevOps
+					<li>  &emsp; &emsp; &emsp; &emsp;> Set up Linux virtual machines using Hyper-V</li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> Wrote a script to create backups for other coding fellows' databases</li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> Installed LAMP using command line</li>
+					<li>  &emsp; &emsp; &emsp; &emsp;> Worked with AWS EC2 instances and S3 buckets
+					<li>Skills</li>
+
+				</ul>
+			</div>
+			<div id='education' class='fixed-bg education'>
+				<h2>Education</h2>
+				<div style='width: 80%;'>
+
+				</div>
+			</div>
+			<div id='extracurriculars' class='fixed-bg extracurriculars'>
+				<h2>Extracurriculars</h2>
+			</div>
+			<div id='extras' class='fixed-bg extras'>
+				<h2>Extras</h2>
+				<div style='width: 80%; background-color: rgba(255,255,255,0.5); margin: auto'>
+					<h3>Stories</h3>
+					In October of 2016 I wrote a fictional article called Childstock. Occasionally I'll write some random things, and anything that
+					ends up halfway decent I hope will end up here. <br> If you're looking for a writing sample, check out
+					<a style='text-align: center' href='stories/childstock.php'>Childstock</a>
+					<h3>Food</h3>
+					I really like food. Check out some of my favorite restaurants in different areas!<br><br>
+					<a style='text-align: center' href='food/bayarea.php'>The Bay Area</a><br><br>
+					<a style='text-align: center' href='food/socal.php'>Southern California</a><br><br>
+					<a style='text-align: center' href='food/stl.php'>St. Louis</a><br><br>
+					<h3>Music</h3>
+					In my spare time I make Spotify playlists. Here are some of my more recent ones:
+					<h3>Books</h3>
+					This summer I've been trying to get back into reading for fun. If you're looking for recommendations, I have a couple.
+					<br><br><a href='books/main.php'>Book Recommendations</a>
+				</div>
+			</div>
+			<div id='contact' class='fixed-bg contact'>
+				<h2>Contact</h2>
+				<p style='text-align: center; padding:15%;'>
+					Personal Email: amandahua17@gmail.com <br>
+					Linkedin: <a href='https://www.linkedin.com/in/amanda-hua-1691ab168'>https://www.linkedin.com/in/amanda-hua-1691ab168</a><br>
+					Phone: (408) 891-1028<br>
+					Github: <a href= 'https://github.com/amandahua17'>https://github.com/amandahua17</a><br>
+				</p>
+			</div>
+			<a class='homebtn' href='#home'>back to top</a>
+		";
+	foot();
