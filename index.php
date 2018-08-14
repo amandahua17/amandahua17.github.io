@@ -29,10 +29,11 @@
 						<li>  &emsp; &emsp; &emsp; &emsp;> Created a basic blog with login and posting ability
 						<li>  &emsp; &emsp; &emsp; &emsp;> Created gratitude journal website using databases and ajax endpoints
 						<li>  &emsp; &emsp;> DevOps
-						<li>  &emsp; &emsp; &emsp; &emsp;> Set up Linux virtual machines using Hyper-V</li>
-						<li>  &emsp; &emsp; &emsp; &emsp;> Wrote a script to create backups for peers' databases</li>
+						<li>  &emsp; &emsp; &emsp; &emsp;> Set up Linux Ubuntu virtual machines using Hyper-V</li>
+						<li>  &emsp; &emsp; &emsp; &emsp;> Wrote a <a href='https://github.com/amandahua17/coding_fellowship_2018/blob/devOps/script.sh'>script</a> to create backups for peers' databases</li>
 						<li>  &emsp; &emsp; &emsp; &emsp;> Installed LAMP using command line</li>
 						<li>  &emsp; &emsp; &emsp; &emsp;> Worked with AWS EC2 instances and S3 buckets
+						<li>  &emsp; &emsp; &emsp; &emsp;> Established SSH connections to virtual machines
 					</div>
 					<li>Skills</li>
 					<li>  &emsp; Software </li>
@@ -126,8 +127,5 @@
 				</p>
 			</div>
 			<a class='homebtn' href='#home'>back to top</a>
-			<div class='viewrepo'>
-				view the <a href='https://github.com/amandahua17/amandahua17.github.io'>repository</a> for this website
-			</div>
 		";
 	foot();
